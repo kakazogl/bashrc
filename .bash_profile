@@ -29,12 +29,10 @@ alias mv='mv -i';
 
 
 #some env variables
-unset use_color safe_term match_lhs
 export HISTCONTROL=ignoreboth
 HISTFILESIZE=2500
 export HISTIGNORE="ls:pwd:ll:cd:history"
 export HISTTIMEFORMAT="%h %d %H:%M:%S "
-PATH=$PATH:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
 #ssh autocomplete string
 _complete_ssh_hosts ()
